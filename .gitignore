@@ -1,0 +1,43 @@
+# Ignore the WordPress core files
+/wp-admin/
+/wp-includes/
+
+# Ignore the wp-content directory, except for themes and plugins you're working on
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/uploads/
+/wp-content/backup-*/
+
+# Ignore configuration and sensitive files
+wp-config.php
+wp-config-sample.php
+*.sql
+*.env
+.DS_Store
+Thumbs.db
+*.log
+*.htaccess
+
+# Ignore npm/yarn/Composer dependencies
+node_modules/
+vendor/
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore IDE/editor config files
+.idea/
+.vscode/
+*.swp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore other system files
+*.bak
+*.orig
+*.tmp
+*.temp
