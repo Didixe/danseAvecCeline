@@ -1,0 +1,53 @@
+.elementor-element.elementor-element-48e25c3 {
+    position: relative; 
+}
+
+
+#intro {
+    width: 80vw;
+    height: 20vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+    position: relative; 
+    border: 1px solid pink;
+    border-radius: 20px;
+    font-family: 'Playwrite HR', cursive;
+}
+
+#primaryText {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-size: x-large;
+    padding: 1rem;
+}
+
+#writing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    margin: 0;
+    font-size: 3rem;
+}
+
+#lastText {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    font-size: x-large;
+    padding: 1rem;
+}
+
+.elementor-widget-container {
+    display: flex;
+    justify-content: center;
+}
+

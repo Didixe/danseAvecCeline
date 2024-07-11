@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&display=swap');
+
+.playwrite-hr {
+    font-family: 'Playwrite HR', cursive;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+}
