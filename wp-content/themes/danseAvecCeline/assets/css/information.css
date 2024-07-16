@@ -1,0 +1,66 @@
+.information h2 {
+    text-align: center;
+}
+
+div#animations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.encoche {
+    display: inline;
+    margin: 0 10px;
+}
+.encoche::before {
+    content: "\2714"; 
+    color: green;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+#more {
+    margin: 20px;
+}
+#more h2 {
+    text-align: center;
+}
+#more span {
+    display: block;
+    border-top: 1px solid #000;
+    margin: 20px 0;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: pink;
+    color: #334155;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    color: pink;
+    background-color: #334155;
+}
+.hidden {
+    display: none;
+}
+
+.wp-block-button .wp-block-button__link, .wp-block-button .wp-block-button__link {
+    background-color: pink;
+    color: #334155;
+    border-color: #e6e6e6;
+}
+
+.wp-block-button .wp-block-button__link:hover, .wp-block-button .wp-block-button__link:hover {
+    color: pink;
+    background-color:#334155;
+    border-color: #e6e6e6;
+}
+
+.wp-block-button .wp-block-button__link:hover, .wp-block-button .wp-block-button__link:focus {
+    color: pink;
+    background-color:#334155;
+    border-color: #e6e6e6;
+}

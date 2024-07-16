@@ -2,16 +2,34 @@
     position: relative; 
 }
 
+.svg-text {
+    font-size: 3rem;
+    fill: pink;
+    stroke: rgb(250, 174, 187);
+    stroke-width: 2;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear forwards;
+}
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+.animated {
+    animation: none !important;
+}
+
 
 #intro {
     width: 80vw;
     height: 20vh; 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 20vh;
+    margin-top: 12vh;
     margin-bottom: 5vh;
     position: relative; 
     border: 1px solid pink;
@@ -30,7 +48,7 @@
 
 #writing {
     position: absolute;
-    top: 50%;
+    top: 56%;
     left: 50%;
     transform: translate(-50%, -50%); 
     margin: 0;
