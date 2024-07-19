@@ -21,3 +21,25 @@ h3 {
 #profil h4 {
     margin-top: 0; 
 }
+
+.title {
+    height: 5%;
+    margin: 0;
+}
+
+.reviewsplugin {
+    height: 18%;
+}
+
+#localisation {
+    height: 5%;
+    top: -1rem;
+}
+
+#networkText{
+    margin: 0;
+}
+
+.btn{
+    padding: 10px;
+}
