@@ -23,7 +23,7 @@ h3 {
 }
 
 .title {
-    height: 5%;
+    height: 10%;
     margin: 0;
 }
 
@@ -32,7 +32,7 @@ h3 {
 }
 
 #localisation {
-    height: 5%;
+    height: 10%;
     top: -1rem;
 }
 
@@ -42,4 +42,9 @@ h3 {
 
 .btn{
     padding: 10px;
+}
+
+button.wpr-offcanvas-trigger {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

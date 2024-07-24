@@ -9,7 +9,7 @@
     stroke-width: 2;
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: dash 5s linear forwards;
+    animation: dash 10s linear forwards;
 }
 @keyframes dash {
     to {
@@ -29,8 +29,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 12vh;
-    margin-bottom: 5vh;
     position: relative; 
     border: 1px solid pink;
     border-radius: 20px;

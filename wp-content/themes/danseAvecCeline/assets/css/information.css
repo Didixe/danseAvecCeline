@@ -64,3 +64,10 @@ button:hover {
     background-color:#334155;
     border-color: #e6e6e6;
 }
+
+.elementor-widget-google_maps iframe {
+    width: 80vw !important; 
+    height: 500px; 
+    border: none; 
+    margin-bottom: 2rem;
+  }
